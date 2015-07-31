@@ -14,6 +14,6 @@ water   D2
 
 D2      water
 
-We are looking for a pattern like this: D1 protein residue -- water -- D2 protein residue.
+We are looking for a pattern like this: D1 protein residue -- water -- D2 protein residue, so it's actually two hydrogen bonds who share the same water molecule in a frame.
 Every pair of hydrogen bonds in a frame has to be compared with all the other pairs in the same frame to see if these two pairs of hydrogen bonds share the same water molecule, and also has one protein residue on D1 and another on D2.
 After we find out which D1/D2 residue pairs are involved in hydrogen bond, we go over the trajectory again to find out the frequency of formation for each pair.
